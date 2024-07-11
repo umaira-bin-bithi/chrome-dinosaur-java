@@ -160,7 +160,7 @@ public class ChromeDinosaur extends JPanel implements ActionListener, KeyListene
                 dinosaur.img = dinosaurDeadImg;
                 placeCactusTimer.stop();
                 gameLoop.stop();
-                showEndDialog("Game Over", false);
+                showEndDialog("Continue Again !", false);
                 return;
             }
         }
